@@ -1,13 +1,14 @@
-const reportWebVitals = onPerfEntry => {
-  if (onPerfEntry && onPerfEntry instanceof Function) {
-    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-      getCLS(onPerfEntry);
-      getFID(onPerfEntry);
-      getFCP(onPerfEntry);
-      getLCP(onPerfEntry);
-      getTTFB(onPerfEntry);
-    });
-  }
-};
+import { getCLS, getFID, getLCP, getFCP, getTTFB } from 'web-vitals';
 
-export default reportWebVitals;
+function sendToAnalytics(metric) {
+  // Gửi các thông số Web Vitals đến các dịch vụ phân tích
+  console.log(metric);
+}
+
+getCLS(sendToAnalytics);
+getFID(sendToAnalytics);
+getLCP(sendToAnalytics);
+getFCP(sendToAnalytics);
+getTTFB(sendToAnalytics);
+
+export default sendToAnalytics
