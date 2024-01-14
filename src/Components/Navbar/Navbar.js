@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../Assets/img/done.png";
+import Logo from "../../Assets/img/done.png";
 
 const Navbar = () => {
     return (
         <>
-            <div className="flex flex-wrap h-screen">
+            <div className="flex flex-wrap">
                 <section className="relative mx-auto">
                     <nav className="flex justify-between bg-yellow-700 text-black w-screen">
                         <div className="px-5 xl:px-12 py-3.5 flex w-full items-center">
