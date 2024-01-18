@@ -1,11 +1,107 @@
+// @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;600&display=swap');
+
 .home-container {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #88976f;
-    color: white;
+
+    .header-home {
+        height: 520px;
+        background-color: #88976f;
+        color: white;
+    }
+
+    
+.img-position {
+    position: absolute;
 }
 
-.background-navbar {
-    background-color: black;
+.yellowMoai {
+    height: 45rem;
+    right: 12%;
+    bottom: 16%;
+}
+
+.moai1 {
+    height: 23rem;
+    right: 37%;
+    bottom: 21%;
+}
+
+.moai2 {
+    height: 30rem;
+    right: 4%;
+    bottom: 21%;
+}
+
+}
+
+.slogan {
+    width: 24%;
+    height: 100%;
+    margin-left: 140px;
+    padding-top: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+
+    h1 {
+        font-size: 4.5rem;
+        margin-top: 40px;
+    }
+
+    .review {
+        margin-top: 40px;
+    }
+
+    .button {
+        margin-top: 40px;
+        border-radius: 50px;
+        margin-left: 5px;
+        color: white;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    .buy-now {
+        background-color: #31321e;
+        padding: 8px 25px;
+        border: none;
+    }
+
+    .explone {
+        background-color: transparent;
+        padding: 8px 15px;
+        border: 1px solid white;
+    }
+}
+
+.categories-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 150px;
+    background-color: #e3f79d;
+
+    h2{
+        font-weight: 700;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .text{
+        font-size: 1.2rem;
+        font-weight: 350;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .categories{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .categories div{
+        margin-left: 15px;
+    }
+
 }
