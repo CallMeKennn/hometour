@@ -2,6 +2,8 @@ import React from "react";
 import Navbar2 from "../../Components/Navbar2/Navbar2";
 import "./Home.scss";
 import Categories from "../../Components/Categories/Categories";
+import ProductDetail from "../../Components/ProductDetail/ProductDetail";
+
 import Moai1 from "../../Assets/img/moai_1.png";
 import Moai2 from "../../Assets/img/moai_2.png";
 import YellowMoai from "../../Assets/img/yellow_moai.png";
@@ -38,6 +40,13 @@ const Home = () => {
                     <Categories src={BroMoai} categoryName={"Hoang"}/>
                     <Categories src={BroMoai} categoryName={"Hoang"}/>
                     <Categories src={BroMoai} categoryName={"Hoang"}/>
+                </div>
+            </div>
+
+            <div className="products-container">
+                <h1>Our Products</h1>
+                <div className="products">
+                    <ProductDetail />
                 </div>
             </div>
         </div>
